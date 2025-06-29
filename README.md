@@ -1,4 +1,39 @@
 # Open WebUI 👋
+# FP-AI OpenWebUI
+
+Enterprise-ready OpenWebUI fork with Microsoft Entra ID authentication integration.
+
+## Features
+
+- ✅ Microsoft Entra ID (Azure AD) authentication
+- ✅ Group-based role mapping
+- ✅ All original OpenWebUI features
+- ✅ Vercel deployment ready
+- ✅ Enterprise security compliance
+
+## Quick Start
+
+1. Clone this repository
+2. Set up Entra ID app registration
+3. Configure environment variables
+4. Deploy to Vercel or run locally
+
+## Differences from Upstream
+
+- Replaced built-in authentication with Entra ID
+- Added MSAL integration in backend
+- Modified frontend auth flow
+- Added Vercel deployment configuration
+
+## Maintaining Updates
+
+This fork regularly syncs with upstream OpenWebUI while preserving Entra authentication.
+
+## License
+
+Maintains original OpenWebUI license with required attribution.
+
+
 
 ![GitHub stars](https://img.shields.io/github/stars/open-webui/open-webui?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/open-webui/open-webui?style=social)
